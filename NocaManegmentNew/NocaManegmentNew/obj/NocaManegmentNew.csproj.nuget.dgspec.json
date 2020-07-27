@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tsotne\\Desktop\\NocaManegmentNew\\NocaManegmentNew\\NocaManegmentNew.csproj": {}
+    "C:\\Users\\Tsotne\\Desktop\\vue\\Vue_js\\NocaManegmentNew\\NocaManegmentNew\\NocaManegmentNew.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tsotne\\Desktop\\NocaManegmentNew\\NocaManegmentNew\\NocaManegmentNew.csproj": {
+    "C:\\Users\\Tsotne\\Desktop\\vue\\Vue_js\\NocaManegmentNew\\NocaManegmentNew\\NocaManegmentNew.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tsotne\\Desktop\\NocaManegmentNew\\NocaManegmentNew\\NocaManegmentNew.csproj",
+        "projectUniqueName": "C:\\Users\\Tsotne\\Desktop\\vue\\Vue_js\\NocaManegmentNew\\NocaManegmentNew\\NocaManegmentNew.csproj",
         "projectName": "NocaManegmentNew",
-        "projectPath": "C:\\Users\\tsotne\\Desktop\\NocaManegmentNew\\NocaManegmentNew\\NocaManegmentNew.csproj",
-        "packagesPath": "C:\\Users\\tsotne\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tsotne\\Desktop\\NocaManegmentNew\\NocaManegmentNew\\obj\\",
+        "projectPath": "C:\\Users\\Tsotne\\Desktop\\vue\\Vue_js\\NocaManegmentNew\\NocaManegmentNew\\NocaManegmentNew.csproj",
+        "packagesPath": "C:\\Users\\Tsotne\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tsotne\\Desktop\\vue\\Vue_js\\NocaManegmentNew\\NocaManegmentNew\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\tsotne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tsotne\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
