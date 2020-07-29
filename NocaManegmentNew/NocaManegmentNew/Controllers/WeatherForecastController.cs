@@ -26,21 +26,7 @@ namespace NocaManegmentNew.Controllers
             _nOCAManagmentContext = nOCAManagmentContext;
         }
 
-        //[HttpGet]
-        //public IEnumerable<WeatherForecast> Get()
-        //{
-
-        //    var t = _nOCAManagmentContext.Baskets.Select(x => x).ToList();
-
-        //    var rng = new Random();
-        //    return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-        //    {
-
-        //        TemperatureC = rng.Next(-20, 55),
-        //        Summary = Summaries[rng.Next(Summaries.Length)]
-        //    })
-        //    .ToArray();
-        //}
+        
         [HttpGet]
         public IEnumerable<Cabinets> CabinetsGet() 
        {

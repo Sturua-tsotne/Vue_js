@@ -35,7 +35,8 @@ namespace NocaManegmentNew
                                   builder =>
                                   {
                                       builder.WithOrigins("http://localhost:8080/",
-                                                          "http://localhost:8080");
+                                                          "http://localhost:8080")
+                                        .WithMethods("PUT", "DELETE", "GET", "POST");
                                   });
             });
             services.AddControllers();

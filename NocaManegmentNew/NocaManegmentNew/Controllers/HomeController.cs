@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Mime;
 using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using NocaManegmentNew.Models;
 
@@ -28,8 +30,7 @@ namespace NocaManegmentNew.Controllers
             {
                 Id = x.Id,
                 Num = x.Num,
-                //Shelfes = x.Shelfes.Where(a => a.CabinetId == x.Id).ToList(),
-
+                Shelfes = x.Shelfes.Where(a => a.CabinetId == x.Id).ToList(),
             }).ToList();
             return Cabinets;
         }
@@ -71,6 +72,16 @@ namespace NocaManegmentNew.Controllers
 
         }
 
+        [HttpPost("/form-body")]
+        [HttpPost(nameof(AddProduct))]
+        public bool AddProduct()
+        {
+            
+
+            return true;
+        }
+
+       
 
 
     }
